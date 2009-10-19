@@ -1,0 +1,46 @@
+h1. delphin
+
+
+h2. Overview
+
+Ruby utilities for the DELPH-IN project.
+
+
+h2. Installation
+
+<pre syntax="ruby">sudo gem install delphin</pre>
+
+
+h2. Source
+
+The trunk repository is <code>svn://rubyforge.org/var/svn/delphin/trunk</code> for anonymous access.
+
+You can also fetch the source from:
+
+<% if rubyforge_project_id %>
+
+* rubyforge: "http://rubyforge.org/scm/?group_id=<%= rubyforge_project_id %>":http://rubyforge.org/scm/?group_id=<%= rubyforge_project_id %>
+
+<pre>git clone git://rubyforge.org/delphin.git</pre>
+
+<% else %>
+
+* rubyforge: MISSING IN ACTION
+
+TODO - You can not created a RubyForge project, OR have not run <code>rubyforge config</code>
+yet to refresh your local rubyforge data with this projects' id information.
+
+When you do this, this message will magically disappear!
+
+Or you can hack website/index.txt and make it all go away!!
+
+<% end %>
+
+
+h2. License
+
+This code is free to use under the terms of the GNU license. 
+
+h2. Contact
+
+Comments are welcome. Send an email to "W.P. McNeill":mailto:billmcn@gmail.com via the "forum":http://groups.google.com/group/delphin

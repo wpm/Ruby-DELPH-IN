@@ -1,0 +1,52 @@
+# Sample parameter ranges for a parse ranking grid experiment.
+--- !map:Delphin::ParameterRanges 
+counts-absolute: 
+- 0
+grandparenting: 
+- 0
+- 2
+- 3
+- 4
+counts-contexts: 
+- 0
+counts-events: 
+- 0
+relative-tolerance: 
+- 1.0e-06
+- 1.0e-08
+- 1.0e-10
+constituent-weight: 
+- 1
+- 2
+- 0
+counts-relevant: 
+- 1
+active-edges-p: 
+- 
+- true
+lexicalization-p: 
+- 
+nfold: 
+- 10
+niterations: 
+- 2
+lm-p: 
+- 
+random-sample-size: 
+- 
+ngram-size: 
+- 0
+- 2
+- 3
+- 4
+ngram-back-off-p: 
+- 
+- true
+variance: 
+- 
+- 10000.0
+- 100.0
+- 1.0
+- 0.01
+- 0.0001
+- 1.0e-06
